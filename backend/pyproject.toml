@@ -1,0 +1,23 @@
+[project]
+name = "voice-agent-backend"
+version = "0.1.0"
+description = "Voice agent backend with RAG capabilities"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.20",
+    "langchain-core>=0.1.0",
+    "langchain-openai>=0.0.5",
+    "langchain-pinecone>=0.0.2",
+    "langchain-text-splitters>=0.0.1",
+    "livekit>=1.0.17",
+    "livekit-agents[azure,deepgram,mcp,openai,silero,turn-detector]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "openai>=1.0.0",
+    "pinecone>=7.3.0",
+    "pinecone-client>=3.0.0",
+    "pypdf>=3.0.0",
+    "python-dotenv>=1.0.0",
+    "tiktoken>=0.5.0",
+]
+

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth font-sans antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A voice agent built with LiveKit" />
+    <title>LiveKit Voice Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: 'Commit Mono';
+        src: url('/fonts/CommitMono-400-Regular.otf') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Commit Mono';
+        src: url('/fonts/CommitMono-700-Regular.otf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Commit Mono';
+        src: url('/fonts/CommitMono-400-Italic.otf') format('opentype');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Commit Mono';
+        src: url('/fonts/CommitMono-700-Italic.otf') format('opentype');
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+      }
+      :root {
+        --font-public-sans: 'Public Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+          'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        --font-commit-mono: 'Commit Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          'Liberation Mono', 'Courier New', monospace;
+      }
+    </style>
+  </head>
+  <body class="overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
