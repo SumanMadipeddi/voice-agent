@@ -1,5 +1,7 @@
 # LiveKit Agent Starter - React Application
 
+![App Screenshot](./backend/assets/sample.png)
+
 ## 🎯 Overview
 
 This application serves as a frontend client for LiveKit Agents, enabling users to interact with AI agents through voice, video, and text. It's built with React 19 and Vite for optimal performance and developer experience.
