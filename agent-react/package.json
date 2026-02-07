@@ -38,11 +38,11 @@
     "@types/node": "^22.0.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.3",
+    "baseline-browser-mapping": "^2.9.19",
+    "eslint": "^9",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.5.0",
@@ -50,6 +50,7 @@
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^6.0.3"
   }
 }

@@ -12,7 +12,7 @@ api_key = os.getenv("PINECONE_API_KEY")
 default_vector_store = None
 
 if api_key:
-    index_name = "documents"
+    index_name = "dianai"
     pc = Pinecone(api_key=api_key)
     
     if not pc.has_index(index_name):
@@ -39,7 +39,7 @@ if api_key:
     
     if vector_count == 0:
         loader = DirectoryLoader(
-            "rag/",
+            "rag/dianai/",
             glob="*pdf",
             loader_cls=PyPDFLoader
         )
