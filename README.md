@@ -57,7 +57,11 @@ Access at `http://localhost:3000`
 
 ```bash
 cd backend
-uv run agent.py
+uv run agent.py dev
+
+lk agent create
+lk agent delete
+
 ```
 
 ## Project Structure

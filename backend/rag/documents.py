@@ -1,5 +1,5 @@
 from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone, ServerlessSpec
@@ -12,7 +12,7 @@ api_key = os.getenv("PINECONE_API_KEY")
 default_vector_store = None
 
 if api_key:
-    index_name = "dianai"
+    index_name = "documents"
     pc = Pinecone(api_key=api_key)
     
     if not pc.has_index(index_name):

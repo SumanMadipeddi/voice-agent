@@ -14,8 +14,9 @@ build/
 dist/
 *.tsbuildinfo
 
-# PDFs
+db/
 *.pdf
 
 # Config
 livekit.toml
+uv.lock
